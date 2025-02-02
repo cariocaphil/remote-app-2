@@ -27,7 +27,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "interestApp", // Unique name for this remote app
+      name: "remoteApp2", // Unique name for this remote app
       filename: "remoteEntry.js",
       exposes: {
         "./InterestCalculator": "./src/components/InterestCalculator", // Expose InterestCalculator component
