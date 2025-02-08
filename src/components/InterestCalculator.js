@@ -30,7 +30,7 @@ const InterestCalculator = () => {
 
   return (
     <div style={{ backgroundColor: "#d4edda", padding: "20px", margin: "20px 0", borderRadius: "10px" }}>
-      <h2>Interest Calculator</h2>
+      <h2>Remote App 2: Interest Calculator</h2>
       <p>Calculate compound interest over time in <strong>EUR (€)</strong>.</p>
 
       <label>
